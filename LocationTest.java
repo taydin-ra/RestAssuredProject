@@ -60,7 +60,7 @@ public class LocationTest {
         location1.setCapacity(3);
         location1.setId(locationId);
 
-
+//
         given()
                 .cookies(cookies)
                 .body(location1)
